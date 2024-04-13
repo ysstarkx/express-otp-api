@@ -1,0 +1,39 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  21.6.2
+
+Platform: 
+  android arm64
+
+Trace: 
+  Error: EACCES: permission denied, symlink '../../../mime/cli.js' -> '/storage/emulated/0/starkapi/node_modules/send/node_modules/.bin/mime'
+
+npm manifest: 
+  {
+    "name": "express-otp-api",
+    "version": "1.0.0",
+    "description": "An Express.js API for OTP generation and verification.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "ysstarkx",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
